@@ -1,0 +1,27 @@
+body {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+  text-align: center;
+  align-items: center;
+}
+body.light {
+  background: white;
+  text-decoration-color: rgb(24, 189, 38);
+  font-size: 2.5em;
+}
+body.dark {
+  background: rgb(34, 10, 10);
+  color: rgb(47, 6, 144);
+  font-size: 2.5em;
+}
+button {
+  width: 130px;
+  height: 130px;
+  border-radius: 25px;
+text-decoration-color: yellow;
+margin-top: 40px;
+}
