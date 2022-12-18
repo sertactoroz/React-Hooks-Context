@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 function App() {
 
-
+  const [logoText, setLogoText] = useState('toroz.net');
   const [theme, setTheme] = useState("light");
   useEffect(()=>{
     document.body.className = theme
@@ -13,7 +13,9 @@ function App() {
 
   const data={
     theme,
-    setTheme
+    setTheme,
+    logoText,
+    setLogoText
 
   }
   return (
